@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Shearch":"../../components/Shearch/shearch"
+  },
+  "navigationBarTitleText": "购物首页"
+}

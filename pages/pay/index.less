@@ -1,0 +1,112 @@
+.revice_address_row{
+    .address_btn{
+        padding: 20rpx;
+    }
+    button{
+        width: 60%;
+    }
+    .user_info_row{
+        display: flex;
+        padding: 20rpx;
+        .user_info{
+            flex: 5;
+        }
+        .user_phone{
+            flex: 3;
+            text-align: right;
+        }
+    }
+}
+
+.cart_content{
+    padding: 10rpx 0;
+    .cart_title{
+        font-size: 40rpx;
+        padding: 10rpx 20rpx;
+        font-weight: 600;
+        line-height: 80rpx;
+        color: var(--themeColor);
+        border-top: 1rpx solid currentColor;
+        border-bottom: 1rpx solid currentColor;
+    }
+    .cart_item{
+        display: flex;
+        padding: 10rpx 10rpx;
+        border-bottom: 1rpx solid #ccc;
+    }
+    .cart_img{
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        image{
+            width: 80%;
+            // height: 80%;
+        }
+    }
+    .cart_info{
+        margin-top: 20rpx;
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        .cart_name{
+            margin-top: 10rpx;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+        .cary_price_num{
+            margin-top: 15rpx;
+            display: flex;
+            justify-content: space-between;
+            .cart_price{
+                font-size: 36rpx;
+                color: var(--themeColor);
+            }
+            .cart_num{
+                display: flex;
+             .cart_number{
+                width: 60rpx;
+                height: 55rpx;
+                text-align: center;
+                font-size: 36rpx;
+                line-height:55rpx ;
+             }
+            }
+        }
+    }
+}
+
+.footer_tool{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90rpx;
+    background-color: #fff;
+    display: flex;
+    
+    .total{
+        flex: 4; 
+        padding-right: 15rpx;
+        text-align: right;
+            text{
+                color: var(--themeColor);
+              font-weight: 600;
+              font-size: 35rpx; 
+        }
+        view{
+            font-size: 25rpx;
+        }
+}   
+    .order{
+        flex: 2;
+        background-color: var(--themeColor);
+        color: white;
+        font-size: 40rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

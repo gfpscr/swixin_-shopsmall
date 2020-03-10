@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Shearch":"../../components/Shearch/shearch",
+    "Tabs":"../../components/Tabs/tabs"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}
